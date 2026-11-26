@@ -20,6 +20,7 @@
     "test:property": "vitest run tests/property",
     "build": "npm run build --workspaces --if-present",
     "test:e2e": "playwright test",
+    "provenance:check": "node scripts/provenance/check.mjs",
     "verify": "node scripts/verify.mjs"
   },
   "devDependencies": {

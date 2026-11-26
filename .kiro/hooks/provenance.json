@@ -1,0 +1,20 @@
+{
+  "version": "v1",
+  "hooks": [
+    {
+      "name": "provenance-file-save",
+      "description": "Append one ledger line per saved file. Matcher skips docs/provenance/** so the ledger write cannot re-trigger it.",
+      "trigger": "PostFileSave",
+      "matcher": "^(?!.*docs[\\\\/]provenance[\\\\/]).*$",
+      "action": { "type": "command", "command": "node scripts/provenance/record.mjs --event file-save --stdin" },
+      "timeout": 10
+    },
+    {
+      "name": "provenance-agent-stop",
+      "description": "Append one ledger line when the agent finishes a turn.",
+      "trigger": "Stop",
+      "action": { "type": "command", "command": "node scripts/provenance/record.mjs --event agent-stop --stdin" },
+      "timeout": 10
+    }
+  ]
+}

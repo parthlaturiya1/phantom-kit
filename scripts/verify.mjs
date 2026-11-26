@@ -35,6 +35,7 @@ const steps = [
   ["e2e smoke", () => run("npm", ["run", "test:e2e"]).status],
   ["secret scan", secretScan],
   ["gitignore check", gitignoreCheck],
+  ["provenance check", () => run("npm", ["run", "provenance:check"]).status],
 ];
 
 let n = 0;
