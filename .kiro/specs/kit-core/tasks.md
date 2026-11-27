@@ -8,12 +8,12 @@
   - [x] 1.3 Unit tests for good and bad files, and a property test for the round trip
     - _Requirements: 1.3, 1.4_
 
-- [ ] 2. Shared projection and flat output
-  - [ ] 2.1 Write the pure `project` function
+- [x] 2. Shared projection and flat output
+  - [x] 2.1 Write the pure `project` function
     - _Requirements: 1.5_
-  - [ ] 2.2 Write `renderFlat` with drag and arrow-key rotation
+  - [x] 2.2 Write `renderFlat` with drag and arrow-key rotation
     - _Requirements: 2.1, 2.2, 12.1_
-  - [ ] 2.3 Add the screen reader description and reduced-motion handling
+  - [x] 2.3 Add the screen reader description and reduced-motion handling
     - _Requirements: 12.3, 12.4_
 
 - [ ] 3. Window output
