@@ -1,11 +1,11 @@
 # Implementation Plan
 
-- [ ] 1. Scene file
-  - [ ] 1.1 Define the `Scene` type and schema in `packages/kit/src/scene`
+- [x] 1. Scene file
+  - [x] 1.1 Define the `Scene` type and schema in `packages/kit/src/scene`
     - _Requirements: 1.1, 1.2, 1.4_
-  - [ ] 1.2 Write `parseScene` and `serializeScene` with named field errors
+  - [x] 1.2 Write `parseScene` and `serializeScene` with named field errors
     - _Requirements: 1.1, 1.3_
-  - [ ] 1.3 Unit tests for good and bad files, and a property test for the round trip
+  - [x] 1.3 Unit tests for good and bad files, and a property test for the round trip
     - _Requirements: 1.3, 1.4_
 
 - [ ] 2. Shared projection and flat output
