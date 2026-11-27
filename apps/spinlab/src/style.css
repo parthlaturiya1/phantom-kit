@@ -1,0 +1,27 @@
+:root { color-scheme: dark; }
+body { margin: 0; background: #101418; color: #f4f1e8; font-family: system-ui, sans-serif; }
+main { max-width: 760px; margin: 0 auto; padding: 12px 16px 32px; }
+main.ghost { background: #000; max-width: none; }
+h1 { font-size: 1.4rem; margin: 0 0 8px; }
+.row { display: flex; flex-wrap: wrap; gap: 8px; margin: 8px 0; align-items: center; }
+button, select { font: inherit; min-height: 44px; padding: 6px 14px; border-radius: 8px; border: 2px solid #8a93a0; background: #1c232b; color: #f4f1e8; }
+button[aria-pressed="true"] { background: #f4f1e8; color: #101418; border-color: #f4f1e8; }
+button.primary { background: #ffd24a; color: #101418; border-color: #ffd24a; font-weight: 700; }
+:focus-visible { outline: 3px solid #ffd24a; outline-offset: 2px; }
+.stage { display: flex; flex-direction: column; align-items: center; }
+canvas { max-width: 100%; touch-action: none; background: #101418; border-radius: 8px; }
+.ghost canvas { background: #000; border-radius: 0; }
+.hint { color: #c9ced6; margin: 8px 0; }
+.info { max-width: 640px; margin: 8px auto; }
+.honest { font-size: 1.1rem; font-weight: 600; }
+.warn { color: #ffd24a; font-weight: 600; }
+summary { cursor: pointer; min-height: 44px; display: flex; align-items: center; }
+.sheet { background: #fff; max-width: 100%; }
+.sheet svg { width: 100%; height: auto; display: block; }
+
+@media print {
+  body, main, main.ghost { background: #fff; padding: 0; margin: 0; max-width: none; }
+  .no-print { display: none !important; }
+  .sheet svg { width: var(--pw); height: calc(var(--ph) - 0.5mm); }
+  .sheet { overflow: hidden; break-after: avoid; }
+}

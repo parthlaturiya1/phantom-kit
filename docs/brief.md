@@ -1,4 +1,4 @@
-# Phantom Kit brief (public)
+# Phantom Kit brief (public) 
 
 **A phone makes a 3D shape float above the desk. A teacher prints the same shape as cards. The kit learns each class's level from the lessons the teacher records.**
 
