@@ -4,4 +4,7 @@ export { BUILTIN_SCENES } from "./src/scene/builtin";
 export * from "./src/render/project";
 export * from "./src/render/flat";
 export * from "./src/render/a11y";
+export * from "./src/render/window";
+export * from "./src/render/ghostdesk";
+export * from "./src/render/card";
 export { eloExpected } from "./engine/elo";

@@ -16,26 +16,26 @@
   - [x] 2.3 Add the screen reader description and reduced-motion handling
     - _Requirements: 12.3, 12.4_
 
-- [ ] 3. Window output
-  - [ ] 3.1 Write `renderWindow` with tilt and the drag fallback
+- [x] 3. Window output
+  - [x] 3.1 Write `renderWindow` with tilt and the drag fallback
     - _Requirements: 3.1, 3.2, 3.3_
-  - [ ] 3.2 Unit test the fallback when tilt is missing
+  - [x] 3.2 Unit test the fallback when tilt is missing
     - _Requirements: 3.2_
 
-- [ ] 4. Ghost Desk output
-  - [ ] 4.1 Write `renderGhostDesk` with four mirrored views on black
+- [x] 4. Ghost Desk output
+  - [x] 4.1 Write `renderGhostDesk` with four mirrored views on black
     - _Requirements: 4.1, 4.4_
-  - [ ] 4.2 Add the honest-line text and the setup guide with the sharp-edge warning
+  - [x] 4.2 Add the honest-line text and the setup guide with the sharp-edge warning
     - _Requirements: 4.2, 4.3_
-  - [ ] 4.3 Add the small-screen check
+  - [x] 4.3 Add the small-screen check
     - _Requirements: 4.5_
-  - [ ] 4.4 Property test that the four views keep the same angle offset
+  - [x] 4.4 Property test that the four views keep the same angle offset
     - _Requirements: 4.4_
 
-- [ ] 5. Printed card output
-  - [ ] 5.1 Write `renderCard` as SVG with fixed angles and the item code
+- [x] 5. Printed card output
+  - [x] 5.1 Write `renderCard` as SVG with fixed angles and the item code
     - _Requirements: 5.1, 5.2_
-  - [ ] 5.2 Fit A4 and Letter, and test that the output is repeatable
+  - [x] 5.2 Fit A4 and Letter, and test that the output is repeatable
     - _Requirements: 5.3, 5.4_
 
 - [ ] 6. Lesson and Teacher Tap
